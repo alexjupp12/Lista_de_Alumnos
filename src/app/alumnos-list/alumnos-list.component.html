@@ -1,0 +1,5 @@
+<ul>
+    <li *ngFor="let alumno of alumnos" [ngClass]="{ 'aprobado': alumno.promedio >= 7.0, 'reprobado': alumno.promedio < 7.0 }">
+    {{ alumno.nombre }} - {{ alumno.edad }} años - Promedio: {{ alumno.promedio | number: '1.2-2' }}
+    </li>
+</ul>

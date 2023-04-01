@@ -10,7 +10,7 @@ export class AlumnosListComponent {
   alumnos: Alumno[] = [
     new Alumno('Juan', 18, 'M', 8.5),
     new Alumno('María', 20, 'F', 9.0),
-    new Alumno('Pedro', 19, 'M', 7.0),
+    new Alumno('Pedro', 19, 'M', 6.0),
     new Alumno('Ana', 21, 'F', 9.5)
   ];
 }
